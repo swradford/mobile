@@ -21,9 +21,10 @@
         <script type="text/javascript">
             app.initialize();
             function phonegapLoaded() {
-            alert("phonegap ready");
+            	alert("phonegap ready");
+            }
             function DOMLoaded() {
-            	alert("done");
+            	alert("dom loaded");
             	document.addEventListener("deviceready", phongapLoaded, false);
             }
         </script>
